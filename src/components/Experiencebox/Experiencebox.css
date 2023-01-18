@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300;600&display=swap');
+
+.jobbox-container{
+    display: flex;
+    flex-direction: column;
+    font-family: "alata",sans-serif;
+    border: 1px solid blue;
+    margin: 0px 20px;
+    padding: 20px;
+    max-width: 450px;
+    height: 250px;
+    border-radius: 9px;
+    color: rgb(44, 44, 44);
+    /* background-color: rgba(255, 255, 255, 0.664); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.job-tittle{
+    color: blueviolet;
+    /* text-decoration: underline; */
+    padding-bottom: 5px;
+}
+.job-pl-du{
+    display: flex;
+    padding-bottom: 7px;
+
+}

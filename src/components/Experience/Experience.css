@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300;600&display=swap');
+
+.experience-container{
+    display: flex;
+    background: url(https://wallpaperaccess.com/full/1159285.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100vh;
+    padding-top:100px ;
+    /* padding-top: 100px; */
+}
+.experience-container >h1{
+    font-family: "Montserrat",sans-serif;
+    color: blue;
+    text-decoration: underline;
+    margin: 5px 0 35px 0;
+    font-size: 26px;
+}
+.experience{
+    display: flex;
+    width: 80vw;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    /* overflow: scroll; */
+}
+

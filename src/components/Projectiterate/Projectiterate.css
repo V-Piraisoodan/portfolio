@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 40px;
+    /* margin: 50px 0px; */
+    align-items: center;
+}
+.all-projects{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.project-container > h2 {
+    font-family: "Montserrat",sans-serif;
+    font-size: 26px;
+    /* font-family: "Montserrat",sans-serif; */
+    color: blue;
+    /* text-shadow: 3px 4px 7px rgba(184, 68, 165, 0.39); */
+    text-decoration: underline;
+    /* padding-bottom: 10px;    */
+}

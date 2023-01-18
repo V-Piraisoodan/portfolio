@@ -1,0 +1,76 @@
+.pro-content >div> img {
+    height: 150px;
+    width: 280px;
+}
+.pro-content{
+    width: 280px;
+    height: 150px;
+}
+.pro-img-tit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pro-container{
+    /* margin: 15px; */
+    width: 280px;
+    height: 200px;
+    margin: 5px;
+    /* padding: 5px; */
+    transition:transform 2000ms ease-in;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    cursor: default;
+}
+.project-content>h4{
+    color: greenyellow;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+.project-content>h3{
+    font-size: 16px;
+    padding-bottom: 4px;
+    text-decoration: underline;
+}
+.project-content>p{
+    font-size: 12px;
+}
+.pro-content:hover{
+    color: white;
+    /* background-color: rgba(7, 4, 189, 0.884); */
+    background-color: rgba(0, 0, 0, 0.829);
+    transform: scale(1.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    /* border: 1px solid white; */
+    width: 270px;
+    justify-content:flex-start;
+    gap: 12px;
+    /* flex-direction: column; */
+}
+.btn>button{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn>button:hover{
+    color: green;
+    background-color: white;
+}
