@@ -10,13 +10,13 @@ const Experience = () => {
     place : "Hosur ,",
     state : "Tamilnadu.",
     duration : "(2018-2019)",
-    details : "dfjgfkjgfjb kklk kkkgh bbbbnnbnb jjjggguuiiugiu nbnbnbjjggjgi jjggnjngngnjgnj djvkdfgjk jdjdfhj jdkjdjdfj fhejhfjehfh jejekfhehfjehfh"
+    details : "I was working as a Credit Officer at Sangamithra Rural Financial Services in Shoolagiri for 8 months.There I had maintained more than hundred and ten groups under my control,thus I can make better communication with people.As a Credit Officer,I had to verify all documents and to sanction loan for the eligible group."
   },{
     company : "Transcal",
     place : "Bangalore ,",
     state : "Karnataka.",
-    duration : "(2020-2023)",
-    details : "dfjgfkjgfjb djvkdfgjk jdjdfhj jdkjdjdfj fhejhfjehfh jejekfhehfjehfh",
+    duration : "(2020-Present)",
+    details : "Responsible for the calibration, repair of Thermal, humidity, Pressure sensors, data recorders, high accuracy processes and environmental monitoring.Responsible for all measurement methods, measurement standards, measurement uncertainty calculations, calibration software and other tools that are used in the calibration laboratory.Set-up, maintain and document a quality system for the calibration laboratory that fulfills ISO 17025 requirements.",
   }]
   return (
     <Element name='experience' className='experience-container'>

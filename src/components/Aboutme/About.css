@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300;600&display=swap');
+.about-container{
+    background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=740&t=st=1674240899~exp=1674241499~hmac=49ed09614945c24432d7958963696d85d22f73ad508a0a808e26a804d04e7326);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-sub{
+    margin: 0px 40px 10px 40px;
+    /* padding-top: 100px; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-sub>h1{
+    font-family: "Montserrat",sans-serif;
+    color: blue;
+    text-decoration: underline;
+    font-size: 26px;
+}
+.about-sub>p{
+    font-family: "alata",sans-serif;
+    font-size: 22px;
+    margin: 15px 0px;
+    line-height: 35px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+}
+.about-sub>p>h1{
+    font-family: "Montserrat",sans-serif;
+    color: blue;
+    text-decoration: underline;
+    font-size: 24px;
+}
+.about-course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mern{
+    color: red;
+}
+.guvi{
+    color:green;
+    font-weight: bold;
+}

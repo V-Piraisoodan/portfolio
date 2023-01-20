@@ -2,19 +2,19 @@ import React from 'react'
 import { Element } from 'react-scroll'
 import Projects from '../Projects/Projects'
 import "./Projectiterate.css"
-// import bulk from "./bulkmail.png";
+import bulk from "./bulkmail.png";
 
 const Projectiterate = () => {
     const projects = [{
-        pics : "https://github.com/V-Piraisoodan/port-img/blob/main/bulkmail.png?raw=true",
-        tittle : "Bulk mail sender",
-        desc : "hi super app hhh kkk k lllllll iioioi ggggggh",
+        pics : bulk,
+        tittle : "Bulk email tool",
+        desc : "Bulk email is the act of sending one email campaign to a large group at once",
         link : "https://bulkemail-vpiraisoodan-frontend.netlify.app/",
         front : "https://github.com/V-Piraisoodan/bulkemailtool-vpiraisoodan-frontend",
         back : "https://github.com/V-Piraisoodan/bulkemailtool-vpiraisoodan-backend",
     },
     {
-        pics : "https://media.istockphoto.com/id/175633219/photo/bangalore-or-bengalurucity-scape-with-green-trees-on-foreground.jpg?s=612x612&w=0&k=20&c=XoRqItFjHC4UxbiQ-Pa6EkQ7_Tkm-THhhBL7SX8GtfE=",
+        pics : bulk,
         tittle : "pro1",
         desc : "hi super app",
         link : "gg",
@@ -35,6 +35,7 @@ const Projectiterate = () => {
         front : "front",
         back : "back",
     }]
+    // console.log(projects)
   return (
     <Element className="project-container" name="projects">
     <h2>Projects</h2>
