@@ -28,7 +28,8 @@ const Headers = () => {
             <Link to='contact' smooth={true} duration={500}>
                 <h4>Contact</h4>
             </Link>
-            <h4 className='resume'>Resume</h4>
+            {/* <h4 className='resume'>Resume</h4> */}
+            <a href={'https://drive.google.com/file/d/1eHYcwJVVY-JNeKFzRAcVwhFc79O9Kugz/view?usp=share_link'} className='resume' target="_blank" rel='noopener noreferrer'>Resume</a>
         </div>
     </div>
   )

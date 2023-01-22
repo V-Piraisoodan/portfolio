@@ -20,7 +20,7 @@ const Contact = () => {
                   <GitHubIcon className='github' sx={{ color: 'black' }}/>
                 </IconButton>
               </a>
-              <a href='https://www.linkedin.com/feed/' target="_blank" rel='noopener noreferrer'>
+              <a href='https://www.linkedin.com/in/v-piraisoodan-a953181bb/' target="_blank" rel='noopener noreferrer'>
                 <IconButton>
                   <LinkedInIcon className='linked' color='primary'/>
                 </IconButton>

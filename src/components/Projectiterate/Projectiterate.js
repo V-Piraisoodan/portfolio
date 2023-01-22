@@ -3,6 +3,9 @@ import { Element } from 'react-scroll'
 import Projects from '../Projects/Projects'
 import "./Projectiterate.css"
 import bulk from "./bulkmail.png";
+import movie from "./movie.png";
+import payment from "./payment.png";
+import todo from "./todo.png"
 
 const Projectiterate = () => {
     const projects = [{
@@ -14,26 +17,26 @@ const Projectiterate = () => {
         back : "https://github.com/V-Piraisoodan/bulkemailtool-vpiraisoodan-backend",
     },
     {
-        pics : bulk,
-        tittle : "pro1",
-        desc : "hi super app",
-        link : "gg",
-        front : "front",
-        back : "back",
+        pics : movie,
+        tittle : "Movie App",
+        desc : "A progressive web app where users can explore a wide range of movies.We can update and delete the details of any existing movie in the app.",
+        link : "https://v-piraisoodan-movie-app.netlify.app/",
+        front : "https://github.com/V-Piraisoodan/newMovieapp",
+        back : "https://github.com/V-Piraisoodan/movieapp-node",
     },{
-        pics : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-        tittle : "pro1",
-        desc : "hi super app",
-        link : "gg",
-        front : "front",
-        back : "back",
+        pics : payment,
+        tittle : "Payment Integration App",
+        desc : "Once we place the order we can find the payment pop-up.Order will be placed and the payment will be successfull.",
+        link : "https://v-piraisoodan-payment-app.netlify.app/",
+        front : "https://github.com/V-Piraisoodan/paymentApp-client",
+        back : "https://github.com/V-Piraisoodan/paymentApp-server",
     },{
-        pics : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-        tittle : "pro1",
-        desc : "hi super app",
-        link : "gg",
-        front : "front",
-        back : "back",
+        pics : todo,
+        tittle : "ToDo App",
+        desc : "User can Create, Read, Update, Delete the data using CRUD operation and will be stored in the Database.",
+        link : "https://v-piraisoodan-todoapp.netlify.app/",
+        front : "https://github.com/V-Piraisoodan/todoClient",
+        back : "https://github.com/V-Piraisoodan/todoServer",
     }]
     // console.log(projects)
   return (
