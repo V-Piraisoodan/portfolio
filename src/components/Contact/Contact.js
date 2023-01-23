@@ -29,18 +29,18 @@ const Contact = () => {
           </div>
           <div className='con-address'>
             <div className='con-current'>
-              <h2>Temperory Address </h2>
-              <h3>Ramachandrapura,</h3>
-              <h3>Jalahalli East,</h3>
-              <h3>Bengaluru,</h3>
-              <h3>Karnataka 560097.</h3>
+              <p className='add-tittle'>Temperory Address </p>
+              <p>Ramachandrapura,</p>
+              <p>Jalahalli East,</p>
+              <p>Bengaluru,</p>
+              <p>Karnataka 560097.</p>
             </div>
             <div className='con-permanent'>
-            <h2>Permanent Address </h2>
-              <h3>Somanahalli(vill),</h3>
-              <h3>Palacode(tk),</h3>
-              <h3>Dharmapuri(dt),</h3>
-              <h3>Tamilnadu 636808.</h3>
+              <p className='add-tittle'>Permanent Address </p>
+              <p>Somanahalli(vill),</p>
+              <p>Palacode(tk),</p>
+              <p>Dharmapuri(dt),</p>
+              <p>Tamilnadu 636808.</p>
             </div>
           </div>
         </div>

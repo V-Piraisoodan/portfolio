@@ -3,9 +3,9 @@
 .project-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     height: 100vh;
-    padding-top: 30px;
+    padding-top: 100px;
     /* margin: 50px 0px; */
     align-items: center;
 }
@@ -19,11 +19,12 @@
     margin-top: 10px;
 }
 .project-container > h2 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "alata",sans-serif;
     font-size: 26px;
     /* font-family: "Montserrat",sans-serif; */
     color: blue;
+    margin-bottom: 7px;
     /* text-shadow: 3px 4px 7px rgba(184, 68, 165, 0.39); */
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* padding-bottom: 10px;    */
 }

@@ -7,42 +7,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .about-sub{
-    margin: 0px 40px 10px 40px;
-    /* padding-top: 100px; */
-    width: 65%;
+    /* margin: 0px 40px 10px 40px;s */
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .about-sub>h1{
-    font-family: "Montserrat",sans-serif;
+    font-family: "alata",sans-serif;
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 26px;
 }
 .about-sub>p{
     font-family: "alata",sans-serif;
     font-size: 22px;
     margin: 15px 0px;
+    width: 90%;
     line-height: 35px;
     border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.63);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px 20px;
 }
+.about-sub>p>span{
+    color: blueviolet;
+}
+.about-handimg{
+    height: 20px;
+    width: 20px;
+}
 .about-sub>p>h1{
-    font-family: "Montserrat",sans-serif;
+    font-family: "alata",sans-serif;
     color: blue;
-    text-decoration: underline;
-    font-size: 24px;
+    /* text-decoration: underline; */
+    font-size: 23px;
 }
 .about-course{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* width: 800px; */
+    /* border: 1px solid red ; */
+    padding: 10px 20px;
 }
 .mern{
     color: red;

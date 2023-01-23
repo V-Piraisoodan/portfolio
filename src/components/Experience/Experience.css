@@ -2,7 +2,7 @@
 
 .experience-container{
     display: flex;
-    background: url(https://wallpaperaccess.com/full/1159285.jpg);
+    background: url(https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?w=740&t=st=1674494296~exp=1674494896~hmac=f2ab4529f3d7e41639a21b21539b6739a040264160eb68e83968aaa5e7516e3f);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
@@ -10,23 +10,24 @@
     align-items: center;
     /* border: 1px solid red; */
     height: 100vh;
-    padding-top:100px ;
+    padding-top:95px ;
     /* padding-top: 100px; */
 }
 .experience-container >h1{
-    font-family: "Montserrat",sans-serif;
+    font-family: "alata",sans-serif;
     color: blue;
-    text-decoration: underline;
-    margin: 5px 0 35px 0;
+    /* text-decoration: underline; */
+    margin: 0px 0 30px 0;
     font-size: 26px;
 }
 .experience{
     display: flex;
-    width: 80vw;
-    height: 200px;
+    width: 90vw;
+    height: 370px;
     justify-content: center;
-    align-items: center;
-    margin: 50px 0px;
+    /* align-items: center; */
+    /* margin: 50px 0px; */
+    /* border: 1px solid red; */
     /* overflow: scroll; */
 }
 

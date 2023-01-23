@@ -10,20 +10,24 @@ const Experience = () => {
     place : "Hosur ,",
     state : "Tamilnadu.",
     duration : "(2018-2019)",
-    details : "I was working as a Credit Officer at Sangamithra Rural Financial Services in Shoolagiri for 8 months.There I had maintained more than hundred and ten groups under my control,thus I can make better communication with people.As a Credit Officer,I had to verify all documents and to sanction loan for the eligible group."
+    details1 : "1). I was working as a Credit Officer at Sangamithra Rural Financial Services in Shoolagiri for 8 months.",
+    details2 : "2). There I had maintained more than hundred and ten groups under my control,thus I can make better communication with people.",
+    details3 : "3). As a Credit Officer,I had to verify all documents and to sanction loan for the eligible group.",
   },{
     company : "Transcal",
     place : "Bangalore ,",
     state : "Karnataka.",
     duration : "(2020-Present)",
-    details : "Responsible for the calibration, repair of Thermal, humidity, Pressure sensors, data recorders, high accuracy processes and environmental monitoring.Responsible for all measurement methods, measurement standards, measurement uncertainty calculations, calibration software and other tools that are used in the calibration laboratory.Set-up, maintain and document a quality system for the calibration laboratory that fulfills ISO 17025 requirements.",
+    details1 : "1). Responsible for the calibration, repair of Thermal, humidity, Pressure sensors, data recorders, high accuracy processes and environmental monitoring.",
+    details2 : "2). Responsible for all measurement methods, measurement standards, measurement uncertainty calculations, calibration software and other tools that are used in the calibration laboratory.",
+    details3 : "3). Set-up, maintain and document a quality system for the calibration laboratory that fulfills ISO 17025 requirements.",
   }]
   return (
     <Element name='experience' className='experience-container'>
        <h1>Experience</h1>
        <section className='experience'>
           {
-            jobs.map(({company,place,state,duration,details},index)=>{
+            jobs.map(({company,place,state,duration,details1,details2,details3},index)=>{
               return (
                 <Experiencebox
                   key={index}
@@ -31,7 +35,9 @@ const Experience = () => {
                   place={place}
                   state={state}
                   duration={duration}
-                  details={details}/>
+                  details1={details1}
+                  details2={details2}
+                  details3={details3}/>
               )
             })
           }

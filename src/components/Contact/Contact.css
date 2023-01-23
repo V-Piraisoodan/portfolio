@@ -15,17 +15,17 @@
 .contact-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 100px;
     align-items: center;
-    background: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139106.jpg?w=740&t=st=1674495848~exp=1674496448~hmac=b6326610f7849b51fd4f241fc5f35b7ff69f02df20a030427d2504ca2d20814b);
     height: 100vh;
     background-repeat: no-repeat;
     background-size :cover;
 }
 .contact-container>h1{
-    font-family: "Montserrat",sans-serif;
+    font-family: "alata",sans-serif;
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 26px;
 }
 .con-socialmedia>p{
@@ -37,15 +37,16 @@
     color: tomato;
 }
 .contact-info{
-    margin-top: 30px;
-    width: 40%;
+    margin-top: 20px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.863);
     /* border: 1px solid red; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 10px 30px;
+    padding: 30px 5px;
     border-radius: 8px;
     /* width: 500px; */
 }
@@ -58,37 +59,40 @@
 }
 .con-address{
     display: flex;
-    gap: 10px;
-    font-size: 14px;
-    color: rgb(46, 46, 46);
+    justify-content: space-between;
+    /* gap: 10px; */
+    font-size: 17px;
+    /* border: 1px solid red; */
+    width: 80%;
+    color: rgb(20, 20, 20);
     font-family: "alata",serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    border-radius: 8px;
 }
 .con-address>div{
     /* border: 1px solid red; */
-    padding: 10px 20px;
+    padding: 5px 5px;
     margin: 5px;
     width: 200px;
+    /* font-size: 17px; */
+    font-family: "alata",sans-serif;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .con-socialmedia{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 500px; */
-    width: 300px;
+    width: 80%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px 20px;
     margin: 10px 0 20px 0;
     border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
+.add-tittle{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
