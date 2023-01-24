@@ -67,11 +67,11 @@
    }
    .home_container{
     height: 4%;
-    width: 60%;
+    width: 65%;
    }.home_container>p{
-    font-size: 20px;
+    font-size: 19px;
    }
    .home_container>h1{
-    font-size: 24px;
+    font-size: 22px;
    }
 }

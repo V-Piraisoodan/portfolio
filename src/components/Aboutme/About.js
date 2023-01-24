@@ -16,7 +16,7 @@ const About = () => {
           <br/><span><img className='about-handimg' alt='handicon' src='https://cdn-icons-png.flaticon.com/512/556/556130.png'></img></span> Looking for a job, where I can enhance my learning and utilize my skills.</p>
         <p className='about-course'>
           <h1>Course</h1>
-          <p><span className='mern'>MERN</span> Full Stack Development - (2022-Present)<br/>
+          <p><span className='mern'>MERN</span> Full Stack Development (2022-Present)<br/>
            <span className='guvi'>GUVI Geek Network Pvt Ltd. </span></p>
         </p>
       </div> 
