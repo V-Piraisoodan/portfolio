@@ -76,3 +76,83 @@
     padding: 5px 10px;
     border-radius: 3px;
 }
+#menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .header{
+        display: flex;
+        position: sticky;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+    .header_left{
+        right: 0;
+        flex: 0.3;
+    }
+    .home-name{
+        font-size: 25px;
+    }
+    .img{
+        height: 33px;
+    }
+    .resume{
+        margin-top: 14px;
+    }
+    .active > a > h4 {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #2F2FA2;
+    margin-top: 14px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: transform 70ms ease-in-out;
+    }
+    .active > a > h4:hover{
+        color: #2F2FA2;
+        background-color: white;
+    }
+    .header_right >a >h4{
+        margin-top: 14px;
+    }
+    .header_right{
+     display: flex;
+     flex: 0.7;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     position: fixed;
+     /* top: 100px; */
+     left: -400px;
+     width: 300px;
+     top: 78px;
+     height: 100vh;
+     background-color:#2F2FA2;
+     padding: 0px 10px ;
+     transition: 0.5s ease-in;
+     /* border: 1px solid black; */
+    }
+    .active{
+     display: flex;
+     flex: 0.7;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     position: fixed;
+     left: 0;
+     width: 300px;
+     top: 78px;
+     height: 100vh;
+     background-color:#2F2FA2;
+     padding: 0px 0px 0 20px ;
+     transition: 0.5s ease-in-out;
+    }
+    #menu-icon{
+     display: block;
+     cursor: pointer;
+     color: aliceblue;
+     padding: 0px 0px 0px 25px;
+   }       
+}

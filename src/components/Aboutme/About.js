@@ -18,7 +18,7 @@ const About = () => {
           <h1>Course</h1>
           <p><span className='mern'>MERN</span> Full Stack Development - (2022-Present)<br/>
            <span className='guvi'>GUVI Geek Network Pvt Ltd. </span></p>
-          </p>
+        </p>
       </div> 
     </Element>
   )

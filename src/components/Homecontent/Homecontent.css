@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     gap: 70px;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 100px;
     height: 100vh;
 }
 .pic{
@@ -51,4 +52,26 @@
 }
 .home_container>p>span{
     color: rgb(255, 0, 64);
+}
+@media screen and (max-width:700px) {
+   .home_content{
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+   } 
+   .pic{
+    height: 280px;
+    width: 220px;
+    border-radius: 11px;
+   }
+   .home_container{
+    height: 4%;
+    width: 60%;
+   }.home_container>p{
+    font-size: 20px;
+   }
+   .home_container>h1{
+    font-size: 24px;
+   }
 }
