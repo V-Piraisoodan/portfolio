@@ -69,6 +69,7 @@
         background: url(skill1.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position:center ;
     }
     .skill-img{
         display: none;
