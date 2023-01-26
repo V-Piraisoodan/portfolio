@@ -71,6 +71,7 @@
         background-size: contain;
         border: 1px solid blue;
         background-position: center;
+        height: 600px;
     }
     .skill-img{
         display: none;
