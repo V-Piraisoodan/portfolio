@@ -122,25 +122,25 @@
     width: 78px;
   }
   .project-content>h3{
-    font-size: 16px;
+    font-size: 17px;
   }
   .project-content>p{
-    font-size: 14px;
+    font-size: 16px;
     overflow: scroll;
   }
   .demo-btn{
     justify-content: flex-start;
   }
   .demo{
-    font-size: 12px;
-    padding: 4px 19px;
+    font-size: 13px;
+    padding: 4px 17px;
   }
   .src-code{
-    font-size: 12px;
+    font-size: 15px;
   }
   .s-btn{
-    padding: 4px 8px;
-    font-size: 10px;
+    padding: 5px 3px;
+    font-size: 13px;
   }
 }
 
