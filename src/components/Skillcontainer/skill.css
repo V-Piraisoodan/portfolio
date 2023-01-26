@@ -79,8 +79,7 @@
     .skill-details{
         flex: 0.9;
         background-color: rgba(255, 255, 255, 0.884);
-        padding: 40px 40px 88px 40px;
+        padding: 40px 40px 40px 40px;
         margin: 0px;
-        border: 1px solid red;
     }
 }
