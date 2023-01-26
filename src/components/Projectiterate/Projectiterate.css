@@ -3,7 +3,6 @@
 .project-container{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     height: 100vh;
     padding-top: 100px;
     /* margin: 50px 0px; */
@@ -21,21 +20,14 @@
 .project-container > h2 {
     font-family: "alata",sans-serif;
     font-size: 26px;
-    /* font-family: "Montserrat",sans-serif; */
     color: blue;
     margin-bottom: 7px;
-    /* text-shadow: 3px 4px 7px rgba(184, 68, 165, 0.39); */
-    /* text-decoration: underline; */
-    /* padding-bottom: 10px;    */
 }
 @media screen and (max-width:700px) {
     .project-container{
-        border: 1px solid red;
         overflow: scroll;
     }
     .project-container>h2{
-        /* position: relative; */
-        /* border: 1px solid black; */
         padding: 5px 10px;
         position: sticky;
         top: -30px;
