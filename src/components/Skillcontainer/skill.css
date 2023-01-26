@@ -64,3 +64,16 @@
 .css>span > .MuiLinearProgress-barColorPrimary{
     background-color: palevioletred;
 }
+@media screen and (max-width:700px) {
+    .skill-container{
+        background: url(skill1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .skill-img{
+        display: none;
+    }   
+    .skill-details{
+        background-color: rgba(255, 255, 255, 0.884);
+    }
+}
