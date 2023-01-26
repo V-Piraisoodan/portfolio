@@ -29,3 +29,23 @@
     font-size: 19px;
     margin-bottom: 5px;
 }
+@media screen and (max-width:700px) {
+    .jobbox-container{
+        width: 90%;
+        padding: 15px;
+        margin: 0px;
+        height: 100%;
+    }
+    .job-tittle{
+        font-size: 20px;
+    }
+    .job-duration{
+        font-size: 16px;
+    }
+    .job-pl-du{
+        font-size: 16px;
+    }
+    .job-detail{
+        font-size: 18px;
+    }
+}
