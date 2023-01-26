@@ -42,5 +42,6 @@
         flex-direction: column-reverse;
         gap: 30px;
         height: 100%;
+        margin-bottom: 10px;
     }
 }
