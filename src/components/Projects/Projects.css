@@ -102,6 +102,46 @@
     background-color: tomato;
     border: 1px solid black;   
 }
-
+@media screen and (max-width:700px) {
+    .pro-container{
+        width: 100%;
+        gap: 5px;
+    }
+    .pro-content>p{
+        font-size: 17px;
+    }
+  .pro-content>img{
+    width: 96%;
+    height: 160px;
+  }
+  .btn-container{
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 150px;
+    width: 78px;
+    margin-top: 5px;
+  }
+  .project-content>h3{
+    font-size: 16px;
+  }
+  .project-content>p{
+    font-size: 14px;
+  }
+  .demo-btn{
+    justify-content: flex-start;
+    margin-bottom: 3px;
+  }
+  .demo{
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .src-code{
+    font-size: 13px;
+  }
+  .s-btn{
+    padding: 4px 8px;
+    font-size: 13px;
+  }
+}
 
 

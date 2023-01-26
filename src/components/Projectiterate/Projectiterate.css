@@ -28,3 +28,20 @@
     /* text-decoration: underline; */
     /* padding-bottom: 10px;    */
 }
+@media screen and (max-width:700px) {
+    .project-container{
+        border: 1px solid red;
+        overflow: scroll;
+    }
+    .project-container>h2{
+        /* position: relative; */
+        /* border: 1px solid black; */
+        padding: 5px 10px;
+        position: sticky;
+        top: -30px;
+        z-index: -1;
+    }
+    .all-projects{
+        background-color: white;
+    }
+}

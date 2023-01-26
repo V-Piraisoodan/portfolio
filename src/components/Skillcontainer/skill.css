@@ -69,7 +69,6 @@
         background: url(skill1.png);
         background-repeat: no-repeat;
         background-size: contain;
-        border: 1px solid blue;
         background-position: center;
         height: 600px;
     }

@@ -14,7 +14,7 @@ const Projects = ({pics,tittle,desc,link,front,back}) => {
                      <h3>{tittle}</h3>
                      <p>{desc}</p>
                    </div>) : 
-                  (<img src={pics} alt={tittle}/>)
+                  (<img className='project-img' src={pics} alt={tittle}/>)
                 }
             </div>
             <div className='btn-container'>
@@ -22,7 +22,7 @@ const Projects = ({pics,tittle,desc,link,front,back}) => {
                     {/* <button onClick={()=><a href={link} target="_blank" rel='noopener noreferrer'></a>} className='demo'>Demo</button> */}
                     <a href={link} className='demo' target="_blank" rel='noopener noreferrer'>Demo</a>
                 </div> 
-                <h3>Source codes</h3>
+                <h3 className='src-code'>Source code</h3>
                 <div className='source-btn'>
                   <a href={front} className='s-btn' target="_blank" rel='noopener noreferrer'>Front-end</a>
                   <a href={back} className='s-btn' target="_blank" rel='noopener noreferrer'>Back-end</a>
