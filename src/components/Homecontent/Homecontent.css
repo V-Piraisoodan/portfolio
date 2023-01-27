@@ -60,7 +60,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 15px;
-   } 
+   }
    .pic{
     height: 280px;
     width: 220px;
@@ -68,7 +68,7 @@
    }
    .home_container{
     align-items: center;
-    height: 20%;
+    height: 150px;
     width: 85%;
     padding: 1px 15px;
    }
