@@ -15,6 +15,7 @@ const Projectiterate = () => {
         link : "https://bulkemail-vpiraisoodan-frontend.netlify.app/",
         front : "https://github.com/V-Piraisoodan/bulkemailtool-vpiraisoodan-frontend",
         back : "https://github.com/V-Piraisoodan/bulkemailtool-vpiraisoodan-backend",
+        tech : "React JS, Node JS, Express JS, MongoDB, Material UI.",
     },
     {
         pics : movie,
@@ -23,6 +24,7 @@ const Projectiterate = () => {
         link : "https://v-piraisoodan-movie-app.netlify.app/",
         front : "https://github.com/V-Piraisoodan/newMovieapp",
         back : "https://github.com/V-Piraisoodan/movieapp-node",
+        tech : "React JS, Node JS, Express JS, MongoDB, Material UI.",
     },{
         pics : payment,
         tittle : "Payment Integration App",
@@ -30,6 +32,7 @@ const Projectiterate = () => {
         link : "https://v-piraisoodan-payment-app.netlify.app/",
         front : "https://github.com/V-Piraisoodan/paymentApp-client",
         back : "https://github.com/V-Piraisoodan/paymentApp-server",
+        tech : "React JS, Node JS, Express JS, MongoDB, React-redux, Material UI, Stripe."
     },{
         pics : todo,
         tittle : "ToDo App",
@@ -37,6 +40,7 @@ const Projectiterate = () => {
         link : "https://v-piraisoodan-todoapp.netlify.app/",
         front : "https://github.com/V-Piraisoodan/todoClient",
         back : "https://github.com/V-Piraisoodan/todoServer",
+        tech : "React JS, Node JS, Express JS, MongoDB.",
     }]
     // console.log(projects)
   return (
@@ -44,7 +48,7 @@ const Projectiterate = () => {
     <h2>Projects</h2>
     <section className='all-projects'>
         {
-            projects.map(({pics,tittle,desc,link,front,back,},index)=>{
+            projects.map(({pics,tittle,desc,link,front,back,tech},index)=>{
                 return(
                     <Projects 
                         key={index} 
@@ -53,7 +57,8 @@ const Projectiterate = () => {
                         desc={desc} 
                         link={link} 
                         front={front} 
-                        back={back} />
+                        back={back}
+                        tech={tech} />
                 )
             })
         }

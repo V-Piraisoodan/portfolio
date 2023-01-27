@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import "./Projects.css"
 
-const Projects = ({pics,tittle,desc,link,front,back}) => {
+const Projects = ({pics,tittle,desc,link,front,back,tech}) => {
     const [show , setshow] = useState(false)
   return (
+    <div className='project-container-tech'>
         <div className='pro-container'>
            <div className='pro-content' 
              onMouseEnter={()=>setshow(true)} 
@@ -30,6 +31,10 @@ const Projects = ({pics,tittle,desc,link,front,back}) => {
            </div>
           
         </div>
+        <div className='tech'>
+          <p><span>Technologies used :</span> {tech}</p>
+        </div>
+    </div>
 
     
   )
