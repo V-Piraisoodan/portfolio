@@ -16,9 +16,10 @@
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    padding-bottom: 200px;
     align-items: center;
     background: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139106.jpg?w=740&t=st=1674495848~exp=1674496448~hmac=b6326610f7849b51fd4f241fc5f35b7ff69f02df20a030427d2504ca2d20814b);
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size :cover;
 }

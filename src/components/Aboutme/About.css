@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300;600&display=swap');
 .about-container{
     background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=740&t=st=1674240899~exp=1674241499~hmac=49ed09614945c24432d7958963696d85d22f73ad508a0a808e26a804d04e7326);
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -12,7 +12,7 @@
 .about-sub{
     /* margin: 0px 40px 10px 40px;s */
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     width: 800px;
     display: flex;
     flex-direction: column;
