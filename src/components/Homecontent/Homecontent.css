@@ -7,7 +7,8 @@
     gap: 70px;
     align-items: flex-start;
     padding-top: 100px;
-    height: 100vh;
+    padding-bottom: 100px;
+    height: 100%;
 }
 .pic{
     /* border: 1px solid rgb(138, 138, 138); */

@@ -11,10 +11,25 @@
     height: 100%;
     border-radius: 10px;
     color: rgb(44, 44, 44);
+    overflow-y: scroll;
+    scrollbar-width: none;
     background-color: rgba(255, 255, 255, 0.692);
     /* background-color: rgba(255, 255, 255, 0.664); */
     box-shadow: rgba(0, 0, 0, 0.774) 0px 5px 15px;
 }
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+    }
+::-webkit-scrollbar-thumb {
+        background: #15138f;  
+        border-radius: 15px;
+        }
+        
+::-webkit-scrollbar-thumb:hover {
+        background: #a705c7;  
+        }
+
 .job-tittle{
     color: rgb(108, 3, 206);
     /* text-decoration: underline; */
