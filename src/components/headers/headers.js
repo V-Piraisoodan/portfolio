@@ -38,7 +38,7 @@ const Headers = () => {
                 <h4>Contact</h4>
             </Link>
             {/* <h4 className='resume'>Resume</h4> */}
-            <a href={'https://drive.google.com/file/d/1eHYcwJVVY-JNeKFzRAcVwhFc79O9Kugz/view?usp=share_link'} className='resume' target="_blank" rel='noopener noreferrer'>Resume</a>
+            <a href={'https://drive.google.com/file/d/16zJLpsPj4eVpqavObxZ143mGaR1PYJCE/view?usp=share_link'} className='resume' target="_blank" rel='noopener noreferrer'>Resume</a>
         </div>
         <div id='menu-icon' onClick={handleClick}>
           {click? <ClearIcon/>:<MenuIcon/>}
