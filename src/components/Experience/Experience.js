@@ -9,8 +9,8 @@ const Experience = () => {
     company : "Sangamithra Rural Financial Services",
     place : "Hosur ,",
     state : "Tamilnadu.",
-    duration : "(2018-2019)",
-    details1 : "1). I was working as a Credit Officer at Sangamithra Rural Financial Services in Shoolagiri for 8 months.",
+    duration : "(2018-2020)",
+    details1 : "1). I was working as a Credit Officer at Sangamithra Rural Financial Services in Shoolagiri.",
     details2 : "2). There I had maintained more than hundred and ten groups under my control,thus I can make better communication with people.",
     details3 : "3). As a Credit Officer,I had to verify all documents and to sanction loan for the eligible group.",
   },{
